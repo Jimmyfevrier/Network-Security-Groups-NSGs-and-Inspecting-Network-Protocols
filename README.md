@@ -34,14 +34,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p><h3> ICMP </h3> </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+ICMP (Internet Control Message Protocol) which is used by network devices like routers and computers to send error messages and information in order to help diagnose network problems and manage traffic. 
 
+  Within the VM that I created, I was able to observe this traffic in Wireshark.
+</p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<<img width="858" alt="Image" src="https://github.com/user-attachments/assets/e1764ef2-2d73-4300-afbc-59c1da5ef404" />
 </p>
-<br />
 
+<br />
+<p><h3> SSH </h3> </p>
+<p> 
+SSH (Secure Shell) sends a stead flow of encripted data to prevent other from being about to see what messeage is being sent across the network. 
+
+  You can use it to: 
+  - remotely control another computer (like logging into a server from far away)
+  - Run commands on it.
+  - Transfer files securely.
+</p>
+<br>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
