@@ -45,7 +45,7 @@ ICMP (Internet Control Message Protocol) which is used by network devices like r
 <br />
 <p><h3> SSH </h3> </p>
 <p> 
-SSH (Secure Shell) sends a stead flow of encripted data to prevent other from being about to see what messeage is being sent across the network. 
+SSH (Secure Shell) sends a stead flow of encripted data to prevent other from being about to see what messeage is being sent across the network. (SSH also uses tcp.port == 22)
 
   You can use it to: 
   - remotely control another computer (like logging into a server from far away)
